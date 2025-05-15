@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #8e44ad;
+    --background-color: #f9f9f9;
+    --card-background: #ffffff;
+    --text-color: #333;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  h1, h2 {
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .products, .sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .card, .section-block {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    transition: transform 0.2s;
+  }
+
+  .card:hover, .section-block:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card h3 {
+    margin: 0.5rem 0 0.3rem;
+    font-size: 1.1rem;
+    color: var(--accent-color);
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .card, .section-block {
+      width: calc(50% - 2rem);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card, .section-block {
+      width: 100%;
+    }
+  }

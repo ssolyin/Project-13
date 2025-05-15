@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "image": "images/nft1.jpeg",
+      "title": "NFT card #001",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "image": "images/nft2.jpeg",
+      "title": "NFT card #342",
+      "price": 980
+    },
+    {
+      "id": 3,
+      "image": "images/nft3.jpeg",
+      "title": "NFT card #129",
+      "price": 450
+    },
+    {
+      "id": 4,
+      "image": "images/nft4.jpeg",
+      "title": "NFT card #007",
+      "price": 1500
+    },
+    {
+      "id": 5,
+      "image": "images/nft5.jpeg",
+      "title": "NFT card #555",
+      "price": 300
+    },
+    {
+      "id": 6,
+      "image": "images/nft6.jpeg",
+      "title": "NFT card #101",
+      "price": 750
+    },
+    {
+      "id": 7,
+      "image": "images/nft7.jpeg",
+      "title": "NFT card #888",
+      "price": 2000
+    },
+    {
+      "id": 8,
+      "image": "images/nft8.jpeg",
+      "title": "NFT card #333",
+      "price": 1200
+    }
+  ]
+  
